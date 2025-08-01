@@ -1,41 +1,16 @@
-Ignores for Python and Django projects
-Byte-compiled / optimized / DLL files
-pycache/
-*.py[cod]
-*$py.class
+# Python
+__pycache__/
+*.pyc
 
-C extensions
-*.so
-
-Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-eggs/
-*.egg-info/
-.installed.cfg
-*.egg
-
-Python virtual environment
+# Virtual environment
 venv/
-env/
-.venv/
 
-Environment variables file
+# Django
+*.sqlite3
+*.log
+
+# Environment variables
 .env
 
-Database files
-db.sqlite3
-
-IDE-specific files
+# VS Code project settings
 .vscode/
-.idea/
-
-OS-specific files
-.DS_Store
-Thumbs.db
-
-Django-specific files
-media/
-static/
